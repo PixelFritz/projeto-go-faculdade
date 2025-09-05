@@ -8,10 +8,11 @@ Aqui vamos aprender a criar, rodar, buildar e publicar um projeto em Go, já usa
 ## 📂 Estrutura do Projeto
 ```
 meu-projeto-go/
-├── cmd/app/          -> ponto de entrada da aplicação (main.go)
-├── internal/hello/   -> código interno, não exportável
-├── go.mod            -> arquivo de módulo Go
-└── README.md         -> instruções do projeto
+├── cmd/app/               -> ponto de entrada da aplicação (main.go)
+├── internal/hello/        -> código interno, não exportável
+├── internal/fibonacci/    -> código interno, não exportável
+├── go.mod                 -> arquivo de módulo Go
+└── README.md              -> instruções do projeto
 ```
 
 - **cmd/app/** → onde fica o `main.go`, ponto de entrada do programa.  
